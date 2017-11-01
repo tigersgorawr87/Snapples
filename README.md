@@ -18,7 +18,8 @@ Snapples is word association game using user generated snaps of user generated t
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  The "game" aspect has yet to be created<br />
     d. Broken: the views seem to be broken for plus models,  this issue arrose from updating code to swift 4<br />
     
-  3. SnapplesDB (folder containing my api written with django rest framework)<br />
+  <h3>Available upon request: </h3>
+  1. SnapplesDB (folder containing my api written with django rest framework)<br />
     a. This db has become mostly useless with in the current project due to ios 11 gutting facebook login<br />
     b. The intentions of this db was to take a graph request from users and automating a profile for them<br />
     c. Incomplete: there is no user validation for the Db, also never made it to storage of links to uploaded snaps<br />
