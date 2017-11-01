@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SnapplesTopicView" customModule="Snapples" customModuleProvider="target">
+            <connections>
+                <outlet property="snapplesTable" destination="U0R-Uw-U15" id="XpL-7o-QJs"/>
+                <outlet property="snapplesTableView" destination="kCJ-y9-ZhZ" id="nUz-h1-IkQ"/>
+                <outlet property="view" destination="kCJ-y9-ZhZ" id="crz-2w-8HG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" id="kCJ-y9-ZhZ">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" indicatorStyle="black" style="plain" allowsSelection="NO" rowHeight="30" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="U0R-Uw-U15">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="separatorColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="oCD-R8-zTB"/>
+                        <outlet property="delegate" destination="-1" id="tT4-pf-Z8e"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="U0R-Uw-U15" secondAttribute="trailing" id="Zt9-K1-x41"/>
+                <constraint firstItem="U0R-Uw-U15" firstAttribute="top" secondItem="kCJ-y9-ZhZ" secondAttribute="top" id="cMX-Zj-GhA"/>
+                <constraint firstAttribute="bottom" secondItem="U0R-Uw-U15" secondAttribute="bottom" id="ccb-fE-WGx"/>
+                <constraint firstItem="U0R-Uw-U15" firstAttribute="leading" secondItem="kCJ-y9-ZhZ" secondAttribute="leading" id="d5z-LN-4ni"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

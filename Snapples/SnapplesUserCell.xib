@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SnapplesUserCell" customModule="Snapples" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="wEU-Ly-HqT" customClass="SnapplesUserCell" customModule="Snapples" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wEU-Ly-HqT" id="zBg-kf-QPZ">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1l9-mC-lxo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="waU-sR-utG">
+                        <rect key="frame" x="270" y="0.0" width="50" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="Izg-5W-Hwv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="25"/>
+                        <state key="normal" title="= )">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="likeSnappleWord:" destination="wEU-Ly-HqT" eventType="touchUpInside" id="1OX-Zu-7DB"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htA-ij-Mpt">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="7KH-FO-WSn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="25"/>
+                        <state key="normal" title="= (">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="dislikeSnappleWord:" destination="wEU-Ly-HqT" eventType="touchUpInside" id="JDg-el-3zM"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o39-Xy-5sU">
+                        <rect key="frame" x="270" y="0.0" width="50" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="l7X-Pe-VhL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="21"/>
+                        <state key="normal" title="CAM">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="cameraButton:" destination="wEU-Ly-HqT" eventType="touchUpInside" id="RRI-bO-0wv"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="JcB-de-0yw">
+                        <rect key="frame" x="50" y="-4.5" width="220" height="52"/>
+                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="28"/>
+                        <state key="normal" title="SnappleButton">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="snappleButton:" destination="wEU-Ly-HqT" eventType="touchUpInside" id="S2G-VY-tnr"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LikePercentage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6RP-Av-kcd">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="g9W-Vn-hKS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="18"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="waU-sR-utG" secondAttribute="trailing" id="0A5-lV-3wO"/>
+                    <constraint firstItem="1l9-mC-lxo" firstAttribute="leading" secondItem="zBg-kf-QPZ" secondAttribute="leading" id="9Ok-sT-avo"/>
+                    <constraint firstItem="6RP-Av-kcd" firstAttribute="top" secondItem="zBg-kf-QPZ" secondAttribute="top" id="AhX-kD-e0X"/>
+                    <constraint firstAttribute="trailing" secondItem="1l9-mC-lxo" secondAttribute="trailing" id="KsY-XB-zat"/>
+                    <constraint firstAttribute="bottom" secondItem="1l9-mC-lxo" secondAttribute="bottom" id="N6w-Gu-mwW"/>
+                    <constraint firstItem="o39-Xy-5sU" firstAttribute="leading" secondItem="JcB-de-0yw" secondAttribute="trailing" id="Qz5-AH-gtF"/>
+                    <constraint firstItem="htA-ij-Mpt" firstAttribute="leading" secondItem="zBg-kf-QPZ" secondAttribute="leading" id="YOl-iC-9ky"/>
+                    <constraint firstItem="6RP-Av-kcd" firstAttribute="leading" secondItem="zBg-kf-QPZ" secondAttribute="leading" id="Z4K-r8-RPN"/>
+                    <constraint firstAttribute="bottom" secondItem="o39-Xy-5sU" secondAttribute="bottom" id="aag-wS-Asf"/>
+                    <constraint firstItem="1l9-mC-lxo" firstAttribute="top" secondItem="zBg-kf-QPZ" secondAttribute="top" id="eF8-sA-DkY"/>
+                    <constraint firstItem="JcB-de-0yw" firstAttribute="leading" secondItem="htA-ij-Mpt" secondAttribute="trailing" id="ipw-Lf-aH3"/>
+                    <constraint firstItem="waU-sR-utG" firstAttribute="top" secondItem="zBg-kf-QPZ" secondAttribute="top" id="iqm-Bk-Ip9"/>
+                    <constraint firstItem="JcB-de-0yw" firstAttribute="centerY" secondItem="zBg-kf-QPZ" secondAttribute="centerY" id="mQx-eB-6PS"/>
+                    <constraint firstAttribute="trailing" secondItem="o39-Xy-5sU" secondAttribute="trailing" id="mhX-O6-QBt"/>
+                    <constraint firstAttribute="bottom" secondItem="waU-sR-utG" secondAttribute="bottom" id="q9p-L0-URb"/>
+                    <constraint firstAttribute="bottom" secondItem="6RP-Av-kcd" secondAttribute="bottom" id="r2Q-nD-FX6"/>
+                    <constraint firstItem="o39-Xy-5sU" firstAttribute="top" secondItem="zBg-kf-QPZ" secondAttribute="top" id="roz-LB-b6B"/>
+                    <constraint firstItem="htA-ij-Mpt" firstAttribute="top" secondItem="zBg-kf-QPZ" secondAttribute="top" id="vwo-3o-0VU"/>
+                    <constraint firstAttribute="bottom" secondItem="htA-ij-Mpt" secondAttribute="bottom" id="wqC-ZO-3hL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0078431372550000003" green="0.1764705882" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="backgroundContentView" destination="zBg-kf-QPZ" id="98q-1P-3Q1"/>
+                <outlet property="backgroundImageView" destination="1l9-mC-lxo" id="73Y-N0-0Ot"/>
+                <outlet property="cameraButtonOutlet" destination="o39-Xy-5sU" id="uMS-LU-DjO"/>
+                <outlet property="contentView" destination="zBg-kf-QPZ" id="WPv-Hx-Pf2"/>
+                <outlet property="dislikeButtonOutlet" destination="htA-ij-Mpt" id="mWR-kA-eaT"/>
+                <outlet property="likeButtonOutlet" destination="waU-sR-utG" id="WGt-lw-obb"/>
+                <outlet property="likePercentageOutlet" destination="6RP-Av-kcd" id="faX-qX-6jK"/>
+                <outlet property="snappleButtonOutlet" destination="JcB-de-0yw" id="ZXW-iX-cxD"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
