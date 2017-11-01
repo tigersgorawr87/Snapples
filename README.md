@@ -1,6 +1,11 @@
 ﻿# Snapples
 Snapples is word association game using user generated snaps of user generated topics.
 
+<h2>Purpose:</h2>
+  1.  The main purpose of this project is to learn swift
+  2.  A secondary purpose of this project is map out my idea of a good app (still a work in progress)
+  3.  The next step in this project is to refine my ideas and write a better version using React Native
+
 Included in this project:
   1. podfile (for installing dependencies)
   
