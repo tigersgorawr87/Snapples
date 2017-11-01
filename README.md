@@ -3,8 +3,8 @@ Snapples is word association game using user generated snaps of user generated t
 
 <h3>Purpose:</h3>
   &nbsp;&nbsp;&nbsp;1.  The main purpose of this project is to learn swift<br />
-  &nbsp;&nbsp;&nbsp;2.  A secondary purpose of this project is map out my idea of a good app (still a work in progress)<br />
-  &nbsp;&nbsp;&nbsp;3.  The next step in this project is to refine my ideas and write a better version using React Native<br />
+  &nbsp;&nbsp;&nbsp;2.  A secondary purpose of this project is map out my idea of this app (still a work in progress)<br />
+  &nbsp;&nbsp;&nbsp;3.  The next step in this project is to refine my ideas and rewrite using React Native<br />
 
 <h3>Usage:</h3>
   &nbsp;&nbsp;&nbsp;1.  Download and extract to directory of your choosing (xcode will be required to run)<br />
@@ -31,11 +31,3 @@ Snapples is word association game using user generated snaps of user generated t
     &nbsp;&nbsp;&nbsp;2.  Older Versions<br />
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. There is an older version where the app uses a scrollview instead of a custom navigation bar
     
-
-
-
-
-
-
-
-
