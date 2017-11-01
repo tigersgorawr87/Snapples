@@ -1,5 +1,5 @@
 ﻿# Snapples
-Snapples is Word Association game using user generated snaps of user generated topics.
+Snapples is word association game using user generated snaps of user generated topics.
 
 Included in this project:
   1. podfile (for installing dependencies)
