@@ -6,10 +6,10 @@ Snapples is word association game using user generated snaps of user generated t
   &nbsp;&nbsp;&nbsp;2.  A secondary purpose of this project is map out my idea of a good app (still a work in progress)<br />
   &nbsp;&nbsp;&nbsp;3.  The next step in this project is to refine my ideas and write a better version using React Native<br />
 
-<h3>Usage</h3>
-  1.  Download and extract to directory of your choosing (xcode will be required to run)<br />
-  2.  Navigate to the directory in terminal and run "pod install"<br />
-  3.  Open "Snapples.xcworkspace"<br />
+<h3>Usage:</h3>
+  &nbsp;&nbsp;&nbsp;1.  Download and extract to directory of your choosing (xcode will be required to run)<br />
+  &nbsp;&nbsp;&nbsp;2.  Navigate to the directory in terminal and run "pod install"<br />
+  &nbsp;&nbsp;&nbsp;3.  Open "Snapples.xcworkspace"<br />
 
 <h3>Included in this project:</h3>
   &nbsp;&nbsp;&nbsp;1. podfile (for installing dependencies)
