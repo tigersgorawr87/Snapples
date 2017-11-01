@@ -15,7 +15,7 @@ class SnapplesTopicView: UIViewController, UITableViewDelegate, UITableViewDataS
 
     
 //  The Snapples that get loaded into the SnappleTable   per everyone
-    let snapplesList = ["Hitler", "Graham's Landing", "Parker", "Jankins", "Tig Ole Bitties", "Twerk What Yo Mama Gave Ya!", "item7", "item8", "Graham's Landing", "Parker", "Jankins", "Tig Ole Bitties", "Twerk What Yo Mama Gave Ya!", "item7", "item8"]
+    let snapplesList = ["Topic1", "Topic2", "Topic3", "Topic4", "Topic5", "Topic6", "Topic7", "Topic8", "Topic8", "Topic9", "Topic10", "Topic11", "Topic12", "Topic13", "Topic14"]
 //  Keeps Track of whether a Snapple has been liked or not  per user
     let defaultLikedorNot = ["false","false","false","false","false","false","false","false","false","false","false","false","false","false","false",]
     var mutatedLikedorNot = ["false","false","false","false","false","false","false","false","false","false","false","false","false","false","false",]
