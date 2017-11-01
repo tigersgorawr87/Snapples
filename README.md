@@ -23,7 +23,7 @@ Snapples is word association game using user generated snaps of user generated t
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. This db has become mostly useless with in the current project due to ios 11 gutting facebook login<br />
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. The intentions of this db was to take a graph request from users and automating a profile for them<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Incomplete: there is no user validation for the Db, also never made it to storage of links to uploaded snaps<br />
-    2.  Older Versions
+    2.  Older Versions<br />
        a. There is an older version where the app uses a scrollview instead of a custom navigation bar
     
 
