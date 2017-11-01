@@ -5,7 +5,7 @@ Included in this project:
   1. podfile (for installing dependencies)
   
   2. Snapples (folder containing all code of the code I have written in swift and corresponding UI nib files)
-    a. last update was converting code to swift 4
+    a. last update was converting code to swift 4/n
     b. updating to swift 4 broke the facebook login to my code,  so that part of this project was gutted and not included
     c. incomplete: made it all the way to getting users to access camera,  however the snaps never make it to storage
        user generated topic section has yet to be created
