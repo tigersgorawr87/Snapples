@@ -13,9 +13,9 @@ Snapples is word association game using user generated snaps of user generated t
     a. last update was converting code to swift 4<br />
     b. updating to swift 4 broke the facebook login to my code,  so that part of this project was gutted and not included<br />
     c. incomplete: made it all the way to getting users to access camera,  however the snaps never make it to storage<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;A.  user generated topic section has yet to be created<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;B.  user rating system has yet to be created<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;C.  the "game" aspect has yet to be created<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  user generated topic section has yet to be created<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  user rating system has yet to be created<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  the "game" aspect has yet to be created<br />
     d. Broken: the views seem to be broken for plus models,  this issue arrose from updating code to swift 4<br />
     
   3. SnapplesDB (folder containing my api written with django rest framework)<br />
