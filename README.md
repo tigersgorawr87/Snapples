@@ -7,7 +7,7 @@ Snapples is word association game using user generated snaps of user generated t
   3.  The next step in this project is to refine my ideas and write a better version using React Native<br />
 
 <h3>Included in this project:</h3>
-  1. podfile (for installing dependencies)
+  &nbsp;&nbsp;1. podfile (for installing dependencies)
   
   2. Snapples (folder containing all code of the code I have written in swift and corresponding UI nib files)<br />
     a. last update was converting code to swift 4<br />
